@@ -11,13 +11,23 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="328dp"
-        android:layout_height="495dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:id="@+id/welcomeTextView"
         android:layout_gravity="center_horizontal"
         android:text="@string/welcome"
         android:textSize="@dimen/welcome_textsize"
         android:textColor="@color/welcome_text_color"
         android:singleLine="false"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/androidImageView"
+        android:layout_gravity="bottom|center_horizontal"
+        android:src="@drawable/android"
+        android:layout_weight="1" />
+
 </LinearLayout>
