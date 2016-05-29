@@ -28,6 +28,7 @@
         android:id="@+id/androidImageView"
         android:layout_gravity="bottom|center_horizontal"
         android:src="@drawable/android"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:contentDescription="@string/android_logo" />
 
 </LinearLayout>
