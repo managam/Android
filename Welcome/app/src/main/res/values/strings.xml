@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Welcome</string>
-    <string name="welcome">Welcome to Android App Development</string>
-    <string name="android_logo">Welcome to Android.</string>
+    <string name="welcome" translatable="false">Welcome to Android App Development</string>
+    <string name="android_logo" translatable="false">Welcome to Android</string>
 </resources>

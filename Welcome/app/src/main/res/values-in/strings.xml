@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Selamat datang</string>
+    <string name="android_logo" translatable="false">Selamat datang di Android</string>
+    <string name="welcome" translatable="false">Selamat datang di Pengembangan Aplikasi Android</string>
+</resources>
